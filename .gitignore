@@ -1,9 +1,14 @@
+# trained probes
 ckpts/*
 
+# processed text datasets
 *.npy
 
 
-# standard Python boilerplate
+# ==============================
+# Standard Python boilerplate
+# ==============================
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -37,10 +42,6 @@ pip-log.txt
 pip-delete-this-directory.txt
 .pytest_cache/
 
-# Translations
-*.mo
-*.pot
-
 # PyBuilder
 .pybuilder/
 target/
@@ -51,9 +52,6 @@ target/
 # IPython
 profile_default/
 ipython_config.py
-
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
-__pypackages__/
 
 # Environments
 .env
